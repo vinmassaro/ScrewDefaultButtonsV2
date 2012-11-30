@@ -119,7 +119,7 @@
 			    }
 			    else if ($this.is(':radio')) {
 			    
-			    	$thisParent.addClass('styledRadio');
+			    	$thisParent.addClass('styledRadio ' + $this.val());
 			    	
 			    	var $thisName = $this.attr('name');
 			    	
