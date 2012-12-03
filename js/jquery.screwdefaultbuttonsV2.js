@@ -99,7 +99,7 @@
 		    			}			    	
 		    		})
 		    		
-		    		$thisParent.addClass('styledCheckbox');
+		    		$thisParent.addClass('styledCheckbox ' + $this.val());
 			    	
 			    	$this.on('change', function(){
 			    		if ($this.prop('checked')){
